@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <button onclick="start()" id="start_btn">Start</button>
+    </div>
+    <div style="display: none;" id="content">
+        <div>Time : <span id="timer"></span></div>
+
+        <br><br>
+        <hr>
+        <div class="result"></div>
+        <h3 id="result"></h3>
+        <br>
+        <hr>
+
+        <div>
+            <form name="qForm">
+                <label>Enter Your Name :</label>
+                <input type="text" id="UserName">
+                <br>
+                <br>
+                <h2>1.how many continents do we have ?</h2>
+
+                <label>A. 7</label>
+                <input type="radio" name="q1" id="radio_btn" name="fav_language" value="a">
+                <br>
+                <label>B. 5</label>
+                <input type="radio" name="q1" id="radio_btn" name="fav_language" value="b">
+                <br>
+                <label>C. 4</label>
+                <input type="radio" name="q1" id="radio_btn" name="fav_language" value="c">
+                <br>
+                <label>D. 6</label>
+                <input type="radio" name="q1" id="radio_btn" name="fav_language" value="d">
+
+                <h2>2.how many recocnized oceans do we have</h2>
+                <label>A. 5</label>
+                <input type="radio" class="q2" name="q2" id="radio_btn" name="fav_language" value="a">
+                <br>
+                <label>B. 2</label>
+                <input type="radio" class="q2" name="q2" id="radio_btn" name="fav_language" value="b">
+                <br>
+                <label>C. 3</label>
+                <input type="radio" class="q2" name="q2" id="radio_btn" name="fav_language" value="c">
+                <br>
+                <label>D. 4</label>
+                <input type="radio" class="q2" name="q2" id="radio_btn" name="fav_language" value="d">
+                <br><br>
+                <input onclick="Quiz()" type="button" value="submit" id="sub">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

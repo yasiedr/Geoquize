@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(198, 235, 235);
+}
+
+#timer {
+    background: rgb(112, 209, 234);
+}
+
+#result {
+    background-color: rgb(203, 242, 144);
+}
+
+form {
+    padding: 10px;
+    margin: 10px;
+}
+
+#sub {
+    background-color: green;
+    background: white;
+}
+
+#start_btn{
+    margin-top: 200px;
+    padding: 100px;
+    font-weight: bold;
+}
+#start_btn:hover{
+    background-color: bisque;}
